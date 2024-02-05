@@ -343,75 +343,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &124196656
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.43432
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.43432
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.43432
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -34.897
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 9.1298
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.87
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
-      propertyPath: m_Name
-      value: hanger
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7568e714d0cdf484c8d0658799c6bb92, type: 3}
 --- !u!1 &248003642
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,12 +554,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: 8cdbe0f2-5c3f-4213-b670-aa314c256377
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: e187bf07-ea23-4045-adf2-c7db25368fc3
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -651,12 +582,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: b1c62cf6-9e1b-4f50-b687-b8b76aaf9a05
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 0ef28724-b689-4a27-951d-b45f1d0494b2
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -679,12 +610,12 @@ MonoBehaviour:
       m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: Integer
-      m_Id: 
+      m_Id: 7f4ad934-1b35-41c6-96a7-0408564fc635
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 861573c8-9f3b-4742-a5e6-b59065679468
         m_Path: <XRHMD>/trackingState
         m_Interactions: 
         m_Processors: 
@@ -2532,7 +2463,6 @@ SceneRoots:
   - {fileID: 30839199}
   - {fileID: 966154435}
   - {fileID: 1285615374}
-  - {fileID: 124196656}
   - {fileID: 1503398590}
   - {fileID: 1381968435}
   - {fileID: 329226245}
