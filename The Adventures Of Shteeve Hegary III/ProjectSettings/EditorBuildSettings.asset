@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/House 2.unity
+    path: Assets/Scenes/Level 1.unity
     guid: b6fcd3b888175d44fa75268a229e748c
   - enabled: 1
-    path: Assets/Scenes/Fiyuorefba.unity
+    path: Assets/Scenes/Level 2.unity
     guid: a2b9161c20c89004f8d5419d1241b59e
   - enabled: 1
-    path: Assets/Scenes/Olivia Kitchen.unity
+    path: Assets/Scenes/Level 3.unity
     guid: 31ac1f9b034240e40989b08afaa24059
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dbdfca4b16cb7b44b9f6fba2be96e074, type: 2}
